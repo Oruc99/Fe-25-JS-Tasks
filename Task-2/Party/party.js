@@ -2,7 +2,7 @@ let ad = prompt('adivizi daxil edin')
 
 let yas = +prompt('yasivizi daxil edin')
 
-if(yas > 18 || yas=='18'){
+if(yas > 18 || yas==18){
     console.log(`buyurun ${ad} `);
 }
 else if(yas<18){
