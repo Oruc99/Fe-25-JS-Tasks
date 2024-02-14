@@ -1,13 +1,22 @@
-let ad = prompt('adivizi daxil edin')
+let name = prompt('name')
+let age = +prompt('age')
+let gender = prompt('gender (k/q)')
 
-let yas = +prompt('yasivizi daxil edin')
-
-if(yas > 18 || yas==18){
-    console.log(`buyurun ${ad} `);
+if(age>18 || age==18 ){
+    if(gender=='k' || gender=='K'){
+        console.log(`salam ${name} bey`);
+    }
+    else if(gender=='q' || gender=='Q'){
+        console.log(`salam ${name} xanim`);
+    }
+    else{
+        console.log('error');
+    }
 }
-else if(yas<18){
+else if(age<18){
     console.log('sizin yasiviz catmir');
 }
 else{
     console.log('error');
 }
+
