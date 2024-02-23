@@ -24,4 +24,3 @@ show(2,57,6,3,7,88,98)
 
 
 
-/* value ni menimsedir */

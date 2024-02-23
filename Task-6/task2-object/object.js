@@ -15,11 +15,11 @@ const user1 = {
     }
 }
 
-let user2 = {...user1}
+let user2 = user1
 
-user2.name = user1.username
+user1.name = 'jhon'
+user2.username = 'jhon123'
 
 console.log(user1);
 console.log(user2);
 
-//taski tam basa dusmedim bele elemek lazim idi?  
